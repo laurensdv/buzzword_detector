@@ -1,0 +1,64 @@
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.io.ConfigReader.validateAndRead(ConfigReader.java:163): Source = ID: CERL
+Var: ?x
+Prefixes: {dc=http://purl.org/dc/terms/, rdfs=http://www.w3.org/2000/01/rdf-schema#, drugbank=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/, foaf=http://xmlns.com/foaf/0.1/, dbpedia=http://dbpedia.org/ontology/, owl=http://www.w3.org/2002/07/owl#, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#}
+Endpoint: data.csv
+Graph: null
+Restrictions: []
+Properties: [label]
+Functions: {label={label=}}
+Page size: -1
+Type: csv
+
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.io.ConfigReader.validateAndRead(ConfigReader.java:168): Target = ID: CERL2
+Var: ?y
+Prefixes: {dc=http://purl.org/dc/terms/, rdfs=http://www.w3.org/2000/01/rdf-schema#, drugbank=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/, foaf=http://xmlns.com/foaf/0.1/, dbpedia=http://dbpedia.org/ontology/, owl=http://www.w3.org/2002/07/owl#, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#}
+Endpoint: data.csv
+Graph: null
+Restrictions: []
+Properties: [label]
+Functions: {label={label=}}
+Page size: -1
+Type: csv
+
+06.09.2013 13:13:40 WARN  [main] de.uni_leipzig.simba.io.ConfigReader.validateAndRead(ConfigReader.java:244): 
+06.09.2013 13:13:40 WARN  [main] de.uni_leipzig.simba.io.ConfigReader.validateAndRead(ConfigReader.java:246): Some values were not set. Crossing my fingers and using defaults.
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:126): ID: CERL
+Var: ?x
+Prefixes: {dc=http://purl.org/dc/terms/, rdfs=http://www.w3.org/2000/01/rdf-schema#, drugbank=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/, foaf=http://xmlns.com/foaf/0.1/, dbpedia=http://dbpedia.org/ontology/, owl=http://www.w3.org/2002/07/owl#, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#}
+Endpoint: data.csv
+Graph: null
+Restrictions: []
+Properties: [label]
+Functions: {label={label=}}
+Page size: -1
+Type: csv
+
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:127): ID: CERL2
+Var: ?y
+Prefixes: {dc=http://purl.org/dc/terms/, rdfs=http://www.w3.org/2000/01/rdf-schema#, drugbank=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/, foaf=http://xmlns.com/foaf/0.1/, dbpedia=http://dbpedia.org/ontology/, owl=http://www.w3.org/2002/07/owl#, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#}
+Endpoint: data.csv
+Graph: null
+Restrictions: []
+Properties: [label]
+Functions: {label={label=}}
+Page size: -1
+Type: csv
+
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:132): Loading source data ...
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:245): No cached data found for CERL
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.query.QueryModuleFactory.getQueryModule(QueryModuleFactory.java:19): Generating <csv> reader
+06.09.2013 13:13:40 FATAL [main] de.uni_leipzig.simba.query.CsvQueryModule.fillCache(CsvQueryModule.java:84): Exception:data.csv (No such file or directory)
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.saveToFile(HybridCache.java:178): Serializing 0 objects to /home/ldevocht/Documents/eswcss/cache/102447010.ser
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:137): Loading target data ...
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:245): No cached data found for CERL2
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.query.QueryModuleFactory.getQueryModule(QueryModuleFactory.java:19): Generating <csv> reader
+06.09.2013 13:13:40 FATAL [main] de.uni_leipzig.simba.query.CsvQueryModule.fillCache(CsvQueryModule.java:84): Exception:data.csv (No such file or directory)
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.saveToFile(HybridCache.java:178): Serializing 0 objects to /home/ldevocht/Documents/eswcss/cache/-91712408.ser
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:150): Getting links ...
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:153): Got links in 27ms.
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.io.SerializerFactory.getSerializer(SerializerFactory.java:22): Getting serializer with name null
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:159): Using N3Serializer to serialize
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:178): Returned 0 links above acceptance threshold.
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:179): Returned 0 links to review.
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:186): Mapping carried out in 0.293 seconds
+06.09.2013 13:13:40 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:187): Done.

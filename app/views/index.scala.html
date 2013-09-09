@@ -1,0 +1,23 @@
+@(message: String)
+
+@main("Welcome") {
+
+<script type='text/javascript' src='@routes.Assets.at("javascripts/index.min.js")'></script>
+
+<div class="well">
+    <h1>@message</h1>
+
+    <div class="row">
+
+        <div class="span2">
+            <form class="navbar-form pull-left">
+                <input id="input_text" type="text">
+            </form>
+        </div>
+    </div>
+</div>
+
+<button id="validateButton" class="btn">Validate</button>
+<button id="getMessageButton" class="btn">Get JSON Message</button>
+
+}
