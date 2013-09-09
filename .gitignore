@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-logs
-=======
 # Extracted from https://github.com/ulrich/macaron-factory/blob/master/.gitignore
 # Ignore all dotfiles...
 .*
@@ -15,12 +12,10 @@ log
 logs
 modules
 precompiled
->>>>>>> 7a64516238b73781d6de6f032abcf33bf13ba4aa
 project/project
 project/target
 target
 tmp
-<<<<<<< HEAD
 .history
 dist
 /.idea
@@ -32,9 +27,7 @@ dist
 /RUNNING_PID
 /.settings
 /project/*-shim.sbt
-=======
 test-result
 server.pid
 *.iml
 *.eml
->>>>>>> 7a64516238b73781d6de6f032abcf33bf13ba4aa
